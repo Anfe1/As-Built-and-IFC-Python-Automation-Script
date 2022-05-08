@@ -1,2 +1,3 @@
 # As-Built-and-IFC-Python-Automation-Script
 This is an automation script written in python to be used with ArcMap. 
+This script creates a line feature with added attributes that represent a pipeline to be proposed or ready to be built. The script will also project the file based on user input. A buffer of about 20 feet around the line feature will be created, layered, and loaded into a template .mxd file for the user to review. The final export is going to be a series of .kmz files, layer files that get added to geodatabases, new folders where the files get stored locally, and a final .mxd file. 
